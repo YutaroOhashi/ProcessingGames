@@ -1,5 +1,5 @@
-int[][] board = new int[5][5]; 
-int X, Y, pX, pY, ansN, inputAnsN;
+int X, Y, pX, pY, ansN, inputAnsN, cellN = 5;
+int[][] board = new int[cellN][cellN]; 
 boolean isEnd;
 void setup(){
   size(500, 500);
