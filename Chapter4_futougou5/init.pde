@@ -6,11 +6,11 @@ void initGame(){
   isEnd = false; 
   //0行目に1〜5を入力
   for(i = 0; i < board.length; i++)
-    board[0][i] = i + 1;
+    board[0][i] = i+1;
   //0行目をシャッフル
   for(i = 0; i < board.length; i++){
-    a = int(random(board.length));
-    b = int(random(board.length));
+    a = (int)random(board.length);
+    b = (int)random(board.length);
     tmp = board[0][a];
     board[0][a] = board[0][b];
     board[0][b] = tmp;
@@ -45,7 +45,7 @@ void initGame(){
   //左右の不等号を表示
   for(y = 0; y < board.length; y ++){
     for(x = 0; x < board.length-1; x++){
-      if(board[y][x] > board[y][x + 1])
+      if(board[y][x] > board[y][x+1])
         text(">", x*100+100, y*100+60);
       else
         text("<", x*100+100, y*100+60);
