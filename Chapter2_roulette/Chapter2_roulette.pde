@@ -1,5 +1,5 @@
-String[] lunch = new String[5];
-int num;
+int num, itemN = 5;
+String[] lunch = new String[itemN];
 void setup(){
   size(200, 200);
   PFont font = createFont("MS Gothic", 50);
