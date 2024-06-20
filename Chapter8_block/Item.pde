@@ -16,7 +16,7 @@ class Item{
       if(itemHit()){
         if(imageN == 0)  player.life++;
         if(imageN == 1)  player.life--;
-        else            player.score += 100;
+        else             player.score += 100;
         life = 0;
       }
     }
