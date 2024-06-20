@@ -9,7 +9,7 @@ void initGame(){
   for(y = 0; y < board.length; y++)
     for(x = 0; x < board.length; x++)
       board[y][x] = new Board();
-    //線を書き9を配置
+  //線を書き9を配置
   stroke(0);
   for(i = 0; i < board.length; i++){
     line(i*50, 0, i*50, height);
