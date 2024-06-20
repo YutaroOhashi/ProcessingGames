@@ -53,8 +53,8 @@ void initGame(){
       }
     }
   }
-  /*
-  //表示
+  /*  
+  //数字をはじめから表示したい場合のコード
   fill(0);
   textAlign(CENTER);
   textSize(20);
