@@ -14,7 +14,7 @@ void initGame(){
     for (y = 0; y < 10; y++){
       for(x = 0; x < 10; x++){
         block[stage][y][x] = new Block();
-        block[stage][y][x].x = 70 + x * 50;
+        block[stage][y][x].x = 75 + x * 50;
         block[stage][y][x].y = 50 + y * 20;
         if(stage == 0)  
           if((y + x) % 2 == 0){  
@@ -35,3 +35,11 @@ void initGame(){
   }
   stage = 0;
 }
+
+/*  ブロックをランダムに表示させるためのコード
+if(n == 0){
+  block[n][y][x].life = int(random(2));
+  if(block[n][y][x].life == 1)
+    blockN[n]++;
+}
+*/
