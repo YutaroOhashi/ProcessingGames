@@ -62,7 +62,7 @@ void initGame(){
     line(0, y*100, width, y*100); //横線
     line(y*100, 0, y*100, height); //縦線
     for(x = 0; x < board.length; x++){
-      if(int(random(5)) > 1){
+      if(int(random(5)) > 2){
         text(board[y][x], x*100+50, y*100+60);
         board[y][x] *= 100;
         inputAnsN++;
