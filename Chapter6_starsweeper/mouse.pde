@@ -14,7 +14,7 @@ void mousePressed(){
         openN++;
         neighbor();
       }
-      else if(board[Y][X] > 0 && board[Y][X] < board.length-1){
+      else if(board[Y][X] > 0 && board[Y][X] < 9){
         fill(255);
         rect(X*50, Y*50, 50, 50);
         fill(0);
